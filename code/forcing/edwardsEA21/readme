@@ -1,0 +1,15 @@
+Directory with stuff relating to extracting freshwater forcing timeseries from Edwards et al. (2021) data
+
+06/08/21 - created dir
+edwards_ssps.py produces timeseries of Antarctic contribution to sea level rise
+as projected by Edwards et al. (2021)
+and saves the results as figures
+All data were retrieved from https://github.com/tamsinedwards/emulandice on 6th August 2021 at 09:26 NZ local time
+/main contains the main projection from Edwards et al.
+	these were copied from emulandice-master/results/proj_MAIN_TIMESERIES/ 
+/risk_averse contains the risk averse (pessemistic) projections
+        these were copied from emulandice-master/results/proj_S11_TIMESERIES/
+the projections from individual ssps in /main and /risk_averse retain their original filenames
+to run script: 
+    source activate analysis
+    python3 edwards_ssps.py <main or risk> <gt or slr or Sv>

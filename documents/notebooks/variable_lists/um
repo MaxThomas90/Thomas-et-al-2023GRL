@@ -1,0 +1,14 @@
+			file	stash
+1p5m_air_temperature	p5	m01s03i236
+sea_level_pressure	p5	m01s16i222
+total_precipitation	p5	m01s05i216
+snowfall		p5	m01s05i215
+upward_water_flux	p5	m01s03i223
+10m_wind_speed_u	p5	m01s03i209
+10m_wind_speed_v	p5	m01s03i210
+TOA_shortwave_in	p5	m01s01i207
+TOA_shortwave_out	p5	m01s01i208
+TOA_longwave_out	p5	m01s02i205
+surface_runoff		p5	m01s08i234
+subsurface_runoff	p5	m01s08i235
+surface_air_pressure	p5	m01s00i409

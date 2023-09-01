@@ -1,0 +1,18 @@
+#/bin/bash
+#######################################################################################
+# Update freshwater forcing for NEMO
+# A detailed explanation is given in:
+#       ../../documents/notebooks/updating_freshwater_forcing.html
+# which this script produces. 
+#
+# To run >> ./update_freshwater_forcings.nqs
+#######################################################################################
+# Max Thomas
+
+echo " --------------------------------------------------------------------------------"
+echo " ------ Update forcing ------"
+pypublish update_FW.py test
+echo " ------ Tidy up -------------"
+rm -r figures
+mv update_FW.html ../../documents/notebooks/updating_freshwater_forcing.html
+

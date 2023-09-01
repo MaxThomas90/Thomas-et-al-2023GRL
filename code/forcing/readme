@@ -1,0 +1,21 @@
+22/07/21
+Max Thomas
+
+This directory contains the scripts used to alter the Antarctic mass loss in the runoff ancils.
+update_calving.py changes the ecalving ancil
+update_FW.py changes the runoff ancil
+These scripts could be combined, but for historical reasons they're separate. For the same historical reason, update_FW.py is poorly named and should be update_basal.py.
+
+To run:
+	conda activate analysis
+	from ~/code/forcing/
+		python3 <script name>.py <config name>
+        <script name> can be either of the update scripts. 
+        <config name> corresponds to a configuration name in ../../documents/notebooks/suit_info/region_selectors.csv
+		For example, <config name> could be ross_double, which would double the total calving (update_calving) or basal melt (update_FW), confining all the extra to the Ross sea region. The region and the new amount of melt are set in the csv. If you want to define a new configuration, you should add a row to the csv and run the scripts calling your new configuration
+        the scripts will produce new calving and runoff ancil files in ../../configurations/forcing/<calving><runoff>_ancils, plus a png for sanity checking
+
+**
+To point the model to your new ancil, make a new configuration in ../../configurations/forcing/install_ancils/ that points to your new ancils.
+change app/install_ancil/rose-suite.conf to point to your new configuration file
+**  

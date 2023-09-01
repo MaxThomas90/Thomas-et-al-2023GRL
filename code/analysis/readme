@@ -1,0 +1,9 @@
+This dir contains all the scripts needed to analyse hadgem data.
+Contact 123maxthomas@gmail.com about any of them.
+Max Thomas
+
+To start analysing data use the start_analysis script, which will set up the right python environment and create the file <paths>, which has paths specific to the computer you're using
+source start_analysis <desktop/laptop/maui>
+These paths are specific to my own computers. desktop and laptop both see data stored on an external harddrive, for offline scripting and testing purposes. maui is the NeSI supercomputer used to run hadgem, when the full raw data are stored.
+
+analysis_main.py contains all the functions needed to analyse hadgem data. Scripts to generate results are built off analysis_main 

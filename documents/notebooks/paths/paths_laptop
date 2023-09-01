@@ -1,0 +1,12 @@
+		path
+proj_home	/Users/maxthomas_UO/Documents/Papers/Writing/Otago_postdoc/
+raw_data	/Volumes/Toy_data/nesi/nobackup/nesi00442/thoma97p/cylc-run/
+processed_data	data/
+notes		documents/
+suite2atm	share/data/History_Data/
+suite2oce	share/data/History_Data/NEMOhist/archive_ready/
+suite2ice	share/data/History_Data/CICEhist/archive_ready/
+variables	documents/notebooks/variable_lists/
+with_internet	no
+offline_cmip    ../cmip/
+pickles 	results/pickles/

@@ -1,0 +1,37 @@
+﻿name,model,type,grid,dims,scaler,per_area,cmip_name,cmip_scaler,cmip_timestep,label1,label2,cmap
+soicecov,oce,o,T,2,m2_to_Mkm2,TRUE,siconc,100,SImon,$c_\mathrm{SI}$,$a_\mathrm{SI}$ / Mkm$^2$,continuous
+sos,oce,o,T,2,1,FALSE,sos,1,Omon,$S_{z=0}$ / g.kg$^{-1}$,,continuous
+so,oce,o,T,3,1,FALSE,so,1,Omon,$S$ / g.kg$^{-1}$,,continuous
+tos,oce,o,T,2,1,FALSE,tos,1,Omon,,,divergent
+to,oce,o,T,3,1,FALSE,to,1,Omon,$\theta_\mathrm{o}$ / $^\mathrm{o}$C,,divergent
+thetao,oce,o,T,3,1,FALSE,thetao,1,Omon,$\theta_\mathrm{o}$ / $^\mathrm{o}$C,,divergent
+vo,oce,o,V,3,1,FALSE,vo,1,Omon,$v_\mathrm{o}$ / m.s$^{-1}$,,divergent
+tauvo,oce,o,V,2,1,FALSE,tauvo,1,Omon,$v_\mathrm{o}$ / N.m$^{-2}$,,divergent
+tauuo,oce,o,U,2,1,FALSE,tauuo,1,Omon,$u_\mathrm{o}$ / N.m$^{-2}$,,divergent
+uo,oce,o,U,3,1,FALSE,uo,1,Omon,$u_\mathrm{o}$ / m.s$^{-1}$,,divergent
+wo,oce,o,W,3,1,FALSE,wo,1,Omon,$w_\mathrm{o}$ / m.s$^{-1}$,,divergent
+masscello,oce,o,T,3,1,TRUE,,,,,,
+areacello,oce,o,T,2,1,FALSE,areacello,1,Omon,,,
+aice,ice,i,T,2,m2_to_Mkm2,TRUE,siconc,100,SImon,,,
+hi,ice,i,T,2,1,FALSE,sithick,1,SImon,,,
+tarea,ice,i,T,2,1,FALSE,,,,,,
+ficeberg,oce,o,T,2,1,TRUE,ficeberg,1,Omon,,,continuous
+sidmassth,ice,i,T,2,1,TRUE,sidmassth,1,SImon,test,test,divergent
+sidmasssi,ice,i,T,2,1,TRUE,sidmasssi,1,SImon,,,
+sidmassgrowthwat,ice,i,T,2,1,TRUE,sidmassgrowthwat,1,SImon,,,
+sfdsi,ice,i,T,2,1,TRUE,sfdsi,1,SImon,,,
+sowflisf,oce,o,T,2,1,TRUE,,,,,,
+vowflisf,oce,o,T,3,1,TRUE,,,,,,
+zos,oce,o,T,2,1,FALSE,zos,1,Omon,$h_\mathrm{SS}$ / m,,continuous
+somixhgt,oce,o,T,2,1,FALSE,mlotst,1,Omon,,,
+somxl010,oce,o,T,2,1,FALSE,mlotst,1,Omon,,,
+mlotst,oce,o,T,2,1,FALSE,mlotst,1,Omon,$h_\mathrm{ML}$ / m,,continuous
+soz,oce,o,T,2,1,FALSE,soz,1,Omon,$h_{o}$ / m,,divergent
+friver,oce,o,T,2,1,FALSE,,,,,,
+1p5m_air_temperature,atm,a,x,2,1,FALSE,tas,1,Amon,"$\theta_\mathrm{a,1.5m}$ / $^\mathrm{o}$C",,divergent
+10m_wind_speed_u,atm,a,x,2,1,FALSE,uas,1,Amon,"$u_\mathrm{a,10m}$ / m.s$^{-1}$",,divergent
+10m_wind_speed_v,atm,a,x,2,1,FALSE,vas,1,Amon,"$v_\mathrm{a,10m}$ / m.s$^{-1}$",,divergent
+sea_level_pressure,atm,a,x,2,1,FALSE,psl,1,Amon,$p_\mathrm{SL}$ / Pa,,continuous
+total_precipitation,atm,a,x,2,1,FALSE,pr,1,Amon,$P$ / kg.m$^{-2}$s$^{-1}$,$P$ / kg.m$^{-2}$s$^{-1}$,continuous
+upward_water_flux,atm,a,x,2,1,FALSE,evspsbl,1,Amon,$E$ / kg.m$^{-2}$s$^{-1}$,,continuous
+surface_air_pressure,atm,a,x,2,1,FALSE,ps,1,Amon,$p_\mathrm{0}$ / Pa,,continuous
